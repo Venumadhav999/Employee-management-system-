@@ -1,0 +1,31 @@
+/* ListEmployeeComponent.css */
+.search-bar-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px; 
+  }
+  
+  label {
+    margin-right: 10px; 
+  }
+  
+  .search-bar {
+    position: relative;
+  }
+  #searchInput {
+    width: 300px; 
+    padding: 8px; 
+    font-size: 16px; 
+  }
+  
+  .cancel-button {
+    position: absolute;
+    right: 8px;
+    top: 50%;
+    transform: translateY(-50%);
+    border: none;
+    background: none;
+    cursor: pointer;
+  }
+  
